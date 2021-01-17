@@ -15,4 +15,4 @@ for (var i = 0; i < athletes.children.length; i++) {
     m += time[1];
   }
 }
-console.log(h + Math.floor(m / 60), m % 60);
+console.log(h + Math.floor(m / 60) + ":" + m % 60);
